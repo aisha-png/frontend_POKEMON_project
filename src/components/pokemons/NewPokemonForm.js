@@ -5,7 +5,7 @@ const NewPokemonForm = ({postPokemon}) => {
     const [statePokemon, setStatePokemon] = useState({
         name: "",
         type: "",
-        level: 0,
+        level: "",
         trainers: null
     });  
 
