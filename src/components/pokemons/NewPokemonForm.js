@@ -28,7 +28,7 @@ const NewPokemonForm = ({postPokemon}) => {
                 onChange={handleChange}
                 value={statePokemon.name}
                 /></p>
-                <select 
+                {/* <select 
                 name = "type" 
                 onChange={handleChange} value={statePokemon.type}>Enter Type: 
                 <option value = "WATER">WATER</option>
@@ -49,6 +49,10 @@ const NewPokemonForm = ({postPokemon}) => {
                 <option value = "FLYING">FLYING</option>
                 <option value = "DARK">DARK</option>
                 <option value = "FAIRY">FAIRY</option>
+                </select> */}
+                <select name="type">
+                <option th:each="typeOpt : ${T(com.baeldung.thymeleaf.model.Type).values()}" 
+                    th:value="${typeOpt}" th:text="${typeOpt}"></option>
                 </select>
 
                 <p>Enter Level (1 - 100)
@@ -59,7 +63,6 @@ const NewPokemonForm = ({postPokemon}) => {
                     onChange={handleChange}
                     value={statePokemon.level}
                     />
-                
                 </p>
 
             </form>
