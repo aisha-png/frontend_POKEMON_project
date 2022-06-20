@@ -1,6 +1,10 @@
+import GymContainer from "../../containers/GymContainer";
+
+
 const GymNav = () => {
   return (
-    <div>GymNav</div>
+  <GymContainer/>
+
   )
 }
 
