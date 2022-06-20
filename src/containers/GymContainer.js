@@ -1,8 +1,6 @@
 import { useEffect, useState } from "react";
 import GymList from "../components/gyms/GymList";
 
-import PokemonList from "../components/pokemons/PokemonList";
-
 const GymContainer = () => {
     const [gyms, setGyms ] = useState([]);
     useEffect(( ) => {
