@@ -1,8 +1,9 @@
 import React from 'react'
+import PokemonContainer from '../../containers/PokemonContainer';
 
 const PokemonNav = () => {
   return (
-    <div>PokemonNav</div>
+    <PokemonContainer />
   )
 }
 
