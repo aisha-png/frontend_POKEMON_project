@@ -1,6 +1,8 @@
+import GymLeaderContainer from "../../containers/GymLeaderContainer";
+
 const GymLeaderNav = () => {
   return (
-    <div>GymLeaderNav</div>
+    <GymLeaderContainer/>
   )
 }
 

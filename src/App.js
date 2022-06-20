@@ -4,6 +4,7 @@ import NavBar from './components/navBar/NavBar';
 import PokemonNav from './components/navBar/PokemonNav';
 import TrainerNav from './components/navBar/TrainerNav';
 import GymNav from './components/navBar/GymNav';
+import GymLeaderNav from './components/navBar/GymLeaderNav';
 
 
 
@@ -18,6 +19,7 @@ function App() {
         <Route path='/pokemons' element={<PokemonNav />} />
         <Route path='/trainers' element={<TrainerNav />} />
         <Route path= '/gyms' element={<GymNav />} />
+        <Route path= '/gymLeaders' element={<GymLeaderNav />}/>
 
 
 
