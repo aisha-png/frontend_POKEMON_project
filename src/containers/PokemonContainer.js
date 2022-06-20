@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import PokemonList from "../pokemons/PokemonList";
+import PokemonList from "../components/pokemons/PokemonList";
 
 const PokemonContainer = () => {
 

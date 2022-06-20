@@ -1,6 +1,10 @@
+import TrainerContainer from "../../containers/TrainerContainer";
+
 const TrainerNav = () => {
   return (
-    <div>TrainerNav</div>
+    <>
+    <TrainerContainer />
+    </>
   )
 }
 
