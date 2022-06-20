@@ -7,7 +7,7 @@ const GymContainer = () => {
     const [gyms, setGyms ] = useState([]);
     useEffect(( ) => {
         fetch ("http://localhost:8081/gyms")
-        .then(reponse => Response.json())
+        .then(response => response.json())
         .then (data => setGyms(data))
     }, []);
     return (

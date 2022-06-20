@@ -1,7 +1,7 @@
-const Gym = () => {
+const Gym = ({gym}) => {
     return (
         <>
-        
+        <h1> {gym.name}</h1>
 
         </>
     );
