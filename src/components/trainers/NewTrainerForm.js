@@ -1,8 +1,44 @@
-import React from 'react'
+import React, { useState } from 'react'
 
-const NewTrainerForm = () => {
+const NewTrainerForm = ({postTrainer}) => {
+
+  const [stateTrainer, setStateTrainer] = useState({
+    name: "",
+    dob: ""
+  });
+
+  const handleChange = (event) => {
+    console.log(event);
+    let trainerName = event.target.name;
+    let copiedTrainer = {...stateTrainer}
+    copiedTrainer[trainerName] = event.target.value;
+    setStateTrainer(copiedTrainer);
+  }
+
+  const handleFormSubmit = (event) => {
+    event.preventDefault();
+    postTrainer(stateTrainer);
+  }
+
   return (
-    <div>NewTrainerForm</div>
+    <form onSubmit={handleFormSubmit}>
+      <h2>Enter a new Traianer here:</h2>
+      <p>Enter name: <input 
+          type="text"
+          placeholder="name"
+          name="name"
+          onChange={handleChange}
+          value={stateTrainer.name}/></p>
+      <p>Enter DOB (YYYY-MM-DD): <input 
+          type="text"
+          placeholder="date of birth"
+          name="dob"
+          onChange={handleChange}
+          value={stateTrainer.dob}/></p>
+
+        <button className="enter-button" type="submit">Enter</button>
+    </form>
+
   )
 }
 
