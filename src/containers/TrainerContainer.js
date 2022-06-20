@@ -8,8 +8,8 @@ const TrainerContainer = () => {
 
     useEffect(() => {
         fetch("http://localhost:8081/trainers")
-        .then(response => response.json()
-        .then(data => setTrainers(data)))
+        .then(response => response.json())
+        .then(data => setTrainers(data))
     }, [])
 
     const postTrainer = (newTrainer) => {
@@ -19,7 +19,8 @@ const TrainerContainer = () => {
         body: JSON.stringify(newTrainer)
       })
       .then(response => response.json())
-      .then(savedTrainer => setTrainers([...savedTrainer, trainers]))
+      .then(savedTrainer => setTrainers([...trainers, savedTrainer]));
+
     }
 
 

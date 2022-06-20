@@ -10,7 +10,7 @@ const NewTrainerForm = ({postTrainer}) => {
   const handleChange = (event) => {
     console.log(event);
     let trainerName = event.target.name;
-    let copiedTrainer = {...stateTrainer}
+    let copiedTrainer = {...stateTrainer};
     copiedTrainer[trainerName] = event.target.value;
     setStateTrainer(copiedTrainer);
   }
