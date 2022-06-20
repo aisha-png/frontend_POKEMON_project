@@ -1,10 +1,10 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css';
 import NavBar from './components/navBar/NavBar';
-import PokemonNav from './components/navBar/PokemonNav';
-import TrainerNav from './components/navBar/TrainerNav';
-import GymNav from './components/navBar/GymNav';
-import GymLeaderNav from './components/navBar/GymLeaderNav';
+import PokemonContainer from './containers/PokemonContainer';
+import TrainerContainer from './containers/TrainerContainer';
+import GymContainer from './containers/GymContainer';
+import GymLeaderContainer from './containers/GymLeaderContainer';
 
 
 
@@ -16,10 +16,10 @@ function App() {
       <NavBar />
       <Routes>
         {/* <Route path='/' element={<HomeNav />} /> */}
-        <Route path='/pokemons' element={<PokemonNav />} />
-        <Route path='/trainers' element={<TrainerNav />} />
-        <Route path= '/gyms' element={<GymNav />} />
-        <Route path= '/gymLeaders' element={<GymLeaderNav />}/>
+        <Route path='/pokemons' element={<PokemonContainer />} />
+        <Route path='/trainers' element={<TrainerContainer />} />
+        <Route path= '/gyms' element={<GymContainer />} />
+        <Route path= '/gymLeaders' element={<GymLeaderContainer />}/>
 
 
 
