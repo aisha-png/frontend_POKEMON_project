@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
-import Pokemon from "../components/pokemons/Pokemon";
+import GymList from "../components/gyms/GymList";
+
 import PokemonList from "../components/pokemons/PokemonList";
 
 const GymContainer = () => {
@@ -11,7 +12,7 @@ const GymContainer = () => {
     }, []);
     return (
         <>
-        <PokemonList gyms={gyms}/>
+        <GymList gyms={gyms}/>
 
         </>
     );
