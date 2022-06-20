@@ -1,7 +1,16 @@
+import { useEffect, useState } from "react";
+import GymLeaderList from "../components/gymLeaders/GymLeaderList";
+
 const GymLeaderContainer = () => {
+    const [gymLeaders, setGymLeaders] = useState([]);
+        useEffect(() => {
+            fetch("http://localhost:8081/gym_leaders")
+            .then(response => response.json())
+            .then(data => setGymLeaders (data))
+        },[])
     return(
         <>
-        <h1>Hello From GymLeaderContainer</h1>
+        <GymLeaderList gymLeaders = {gymLeaders}/>
         </>
     );
 }
