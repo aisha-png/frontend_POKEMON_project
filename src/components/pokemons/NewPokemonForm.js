@@ -50,10 +50,10 @@ const NewPokemonForm = ({postPokemon}) => {
                 <option value = "DARK">DARK</option>
                 <option value = "FAIRY">FAIRY</option>
                 </select> */}
-                <select name="type">
+                {/* <select name="type">
                 <option th:each="typeOpt : ${T(com.baeldung.thymeleaf.model.Type).values()}" 
                     th:value="${typeOpt}" th:text="${typeOpt}"></option>
-                </select>
+                </select> */}
 
                 <p>Enter Level (1 - 100)
                     <input
