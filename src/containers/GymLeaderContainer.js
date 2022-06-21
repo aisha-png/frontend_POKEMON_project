@@ -36,7 +36,7 @@ const GymLeaderContainer = () => {
     return(
         <>
         <NewGymLeaderForm postGymLeader={postGymLeader} gyms={gyms}/>
-        <GymLeaderList gymLeaders = {gymLeaders}/>
+        <GymLeaderList gymLeaders = {gymLeaders} gyms={gyms}/>
         </>
     );
 }
