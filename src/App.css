@@ -1,8 +1,13 @@
-*{padding: 0;
-  margin: 0;
-  box-sizing: border-box;
+/* 
+  Colour palate:
+  - Red (#FF0000)
+  - Boston University Red (#CC0000)
+  - Cerulean Blue (#3B4CCA)
+  - Golden Yellow (#FFDE00) 
+  - Gold Foil (#B3A125)
+*/
 
-}
+/* Default React Styling */
 
 .App {
   text-align: center;
@@ -10,44 +15,55 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: lightgrey;
+  background-color: #ffffff; /* Background styling added by us */
 
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Global Styling */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* Navigation Bar Styles */
+
+.poke-ball-logo {
+  width: 45px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: blue;
+.nav-bar-logo {
+  float: left;
 }
 
-.App-link {
-  color: #61dafb;
+.nav-bar-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #3B4CCA;
+  width: 100%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.nav-bar-item {
+  float: right;
 }
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  color: #FFDE00;
+}
+
+/* Pokemon Styling */
 
 .pokemon {
   background-color: #eee;
@@ -60,8 +76,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
-  /* margin: 0.3rem; */
+  /* margin: 0.3rem; Adds small margin around boxes ... can be kept or not */
 }
 
 .pokemon_parent_container {
@@ -69,10 +84,11 @@
   margin: 1rem 3rem;
   padding: 2rem;  
   border-radius: 1rem;
-  background-color: rgb(255, 229, 229);
+  background-color: #3B4CCA;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   flex-wrap: wrap;
   max-width: 1200px;
+  min-height: 760px; /* Fixes page not filling issue */
 }

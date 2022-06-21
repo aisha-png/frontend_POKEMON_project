@@ -3,7 +3,7 @@ const Gym = ({gym, gymLeaders}) => {
     const matchedGymLeaderToGym = gymLeaders.map(gymLeader => {
         let foundGymLeader = gymLeader.id;
         if(foundGymLeader === gym.id){
-            return <p key={gym.id}>{gymLeader.name}</p>
+            return <p key={gym.id}>{gym.name}</p>
         }
         return null;
     })
