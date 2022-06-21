@@ -1,4 +1,4 @@
-const GymLeader = ({gymLeader}) => {
+const GymLeader = ({gyms, gymLeader}) => {
 
     // const matchedGymtoGymLeader = gyms.map(gym => {
     //     let foundGym = gym.gymLeader.id;
@@ -8,12 +8,20 @@ const GymLeader = ({gymLeader}) => {
     //     return null;
     // })
 
+    const matchedGymtoGymLeader = gyms.map(gym => {
+        let foundGym = gym.id;
+        if(foundGym === gymLeader.id){
+            return <p key={gym.id}>{gym.name}</p>
+        }
+        return null;
+    })
+
 
     return(
         <>
         <h1>{gymLeader.name}</h1>
-        <h2>{gymLeader.gym.name}</h2>
-        {/* {matchedGymtoGymLeader} */}
+        {/* <h2>{gymLeader.gym.name}</h2> */}
+        {matchedGymtoGymLeader}
         </>
     );
 }
