@@ -23,12 +23,20 @@ const TrainerContainer = () => {
 
     }
 
+    const deleteTrainer = (id) => {
+      fetch("http://localhost:8081/trainers" + id, {
+        method: "DELETE",
+        headers: {"Content-Type": "application/json"}
+      })
+      setTrainers(trainers.filter(trainer => trainer.id !== id))
+    }
+
 
   return (
     <>
     <NewTrainerForm postTrainer={postTrainer}/>
     <TrainerList 
-      trainers={trainers} />
+      trainers={trainers} deleteTrainer={deleteTrainer} />
     </>
   )
 }
