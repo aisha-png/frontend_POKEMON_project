@@ -30,18 +30,18 @@ const GymContainer = () => {
         .then(data => setTrainers(data))
     }, [])
 
-    // const [gymLeaders, setGymLeaders] = useState([]);
+    const [gymLeaders, setGymLeaders] = useState([]);
 
-    // useEffect(() => {
-    //     fetch("http://localhost:8081/gym_leaders")
-    //     .then(response => response.json())
-    //     .then(data => setGymLeaders (data))
-    // },[]);
+    useEffect(() => {
+        fetch("http://localhost:8081/gym_leaders")
+        .then(response => response.json())
+        .then(data => setGymLeaders (data))
+    },[]);
 
     return (
         <>
         <NewGymForm trainers={trainers} postGym={postGym} />
-        <GymList gyms={gyms}/>
+        <GymList gyms={gyms} gymLeaders={gymLeaders}/>
         
 
         </>

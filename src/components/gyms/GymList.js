@@ -1,9 +1,9 @@
 import Gym from "./Gym";
 
-const GymList = ({gyms, trainers}) => {
+const GymList = ({gyms, gymLeaders}) => {
 
     const gymComponent = gyms.map(gym => {
-        return <Gym key={gym.id} gym = {gym} trainers={trainers}/>
+        return <Gym key={gym.id} gym = {gym} gymLeaders={gymLeaders}/>
     })
 
     return (
