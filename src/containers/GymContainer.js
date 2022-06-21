@@ -42,6 +42,7 @@ const GymContainer = () => {
         <>
         <NewGymForm trainers={trainers} postGym={postGym} />
         <GymList gyms={gyms}/>
+        
 
         </>
     );

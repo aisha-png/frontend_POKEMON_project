@@ -1,18 +1,17 @@
 import { useState } from "react";
 
-const NewGymForm = ({trainers, postGym}) => {
+const NewGymForm = ({postGym}) => {
 
-    const trainerOptions = trainers.map(trainer => {
-        return <option key={trainer.id} value={trainer.id}>{trainer.name}</option>
-    })
+    // const trainerOptions = trainers.map(trainer => {
+    //     return <option key={trainer.id} value={trainer.id}>{trainer.name}</option>
+    // })
 
     // const gymLeaderOptions = gymLeaders.map(gymLeader => {
     //     return <option key={gymLeader.id} value={gymLeader.id}>{gymLeader.name}</option>
     // })
 
     const [stateGym, setStateGym] = useState({
-        name: "",
-        trainers: null
+        name: ""
     });
 
     const handleChange = (event) => {
@@ -28,14 +27,14 @@ const NewGymForm = ({trainers, postGym}) => {
         postGym(stateGym);
     }
 
-    const handleTrainers = (event) => {
-        console.log(event);
-        const trainerId = parseInt(event.target.value);
-        const selectedTrainer = trainers.find(trainer => trainer.id === trainerId);
-        let copiedGym = {...stateGym};
-        copiedGym.trainers = selectedTrainer;
-        setStateGym(copiedGym);
-    }
+    // const handleTrainers = (event) => {
+    //     console.log(event);
+    //     const trainerId = parseInt(event.target.value);
+    //     const selectedTrainer = trainers.find(trainer => trainer.id === trainerId);
+    //     let copiedGym = {...stateGym};
+    //     copiedGym.trainers = selectedTrainer;
+    //     setStateGym(copiedGym);
+    // }
 
     // const handleGymLeaders = (event) => {
     //     const gymLeaderId = parseInt(event.target.value);
@@ -55,13 +54,13 @@ const NewGymForm = ({trainers, postGym}) => {
             name="name"
             onChange={handleChange}
             value={stateGym.name}/> </h2>
-        <select 
+        {/* <select 
             name="trainer" 
             onChange={handleTrainers} 
             >
                 <option>Select a trainer</option>
             {trainerOptions}
-            </select>
+            </select> */}
         {/* <select name="trainer" onChange={handleTrainers}>
             <option>Select a trainer</option>
             {trainerOptions}
