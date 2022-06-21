@@ -9,9 +9,9 @@ const PokemonList = ({pokemons}) => {
     })
 
     return(
-        <>
+        <div className="pokemon_parent_container">
             {pokemonComponent}
-        </>
+      </div>
     )
 }
 
