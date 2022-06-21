@@ -16,7 +16,6 @@ const GymLeader = ({gyms, gymLeader}) => {
         return null;
     })
 
-
     return(
         <>
         <h1>{gymLeader.name}</h1>
@@ -25,4 +24,5 @@ const GymLeader = ({gyms, gymLeader}) => {
         </>
     );
 }
+
 export default GymLeader;

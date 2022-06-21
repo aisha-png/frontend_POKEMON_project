@@ -32,31 +32,27 @@ const NewGymLeaderForm = ({gyms, postGymLeader}) => {
         setStateGymLeader(copiedGymLeader);
     }
 
-
-
-
-
     return(
         <form onSubmit={handleFormSubmit}>
-        <h2>Enter name: <input 
-            type="text" 
-            placeholder="name"
-            name="name"
-            onChange={handleChange}
-            value={stateGymLeader.name}/> </h2>
+            <h2>Enter name: 
+                <input 
+                type="text" 
+                placeholder="name"
+                name="name"
+                onChange={handleChange}
+                value={stateGymLeader.name}
+                /> 
+            </h2>
             <select 
             name="gym" 
             onChange={handleGyms} 
             >
-                <option>Select a Gym</option>
+            <option>Select a Gym</option>
             {gymOptions}
             </select>
             <button className="enter-button" type="submit">Enter</button>
-
         </form>
         
-
-
     );
 }
 export default NewGymLeaderForm;

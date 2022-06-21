@@ -23,20 +23,25 @@ const NewTrainerForm = ({postTrainer}) => {
   return (
     <form onSubmit={handleFormSubmit}>
       <h2>Enter a new Traianer here:</h2>
-      <p>Enter name: <input 
-          type="text"
-          placeholder="name"
-          name="name"
-          onChange={handleChange}
-          value={stateTrainer.name}/></p>
-      <p>Enter DOB (YYYY-MM-DD): <input 
+      <p>Enter name: 
+        <input 
+            type="text"
+            placeholder="name"
+            name="name"
+            onChange={handleChange}
+            value={stateTrainer.name}    
+        />
+      </p>
+      <p>Enter DOB (YYYY-MM-DD): 
+          <input 
           type="text"
           placeholder="date of birth"
           name="dob"
           onChange={handleChange}
-          value={stateTrainer.dob}/></p>
-
-        <button className="enter-button" type="submit">Enter</button>
+          value={stateTrainer.dob}
+          />
+      </p>
+      <button className="enter-button" type="submit">Enter</button>
     </form>
 
   )

@@ -44,16 +44,17 @@ const NewGymForm = ({postGym}) => {
     //     setStateGym(copiedGym);
     // }
 
-
-
     return (
         <form onSubmit={handleFormSubmit}>
-        <h2>Enter name: <input 
-            type="text" 
-            placeholder="name"
-            name="name"
-            onChange={handleChange}
-            value={stateGym.name}/> </h2>
+            <h2>Enter name: 
+                <input 
+                type="text" 
+                placeholder="name"
+                name="name"
+                onChange={handleChange}
+                value={stateGym.name}
+                /> 
+            </h2>
         {/* <select 
             name="trainer" 
             onChange={handleTrainers} 
@@ -72,9 +73,8 @@ const NewGymForm = ({postGym}) => {
             <option>Select a Gym Leader</option>
             {gymLeaderOptions}
             </select> */}
-
             <button className="enter-button" type="submit">Enter</button>
-    </form>
+        </form>
     );
 }
 

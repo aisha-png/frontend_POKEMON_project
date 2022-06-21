@@ -23,7 +23,7 @@ const NewPokemonForm = ({postPokemon}) => {
       }
 
     return(
-            <form onSubmit={handleFormSubmit}>
+        <form onSubmit={handleFormSubmit}>
             <h2> Enter a new Pokemon:</h2>
             <p>Enter Name: 
                 <input 
@@ -32,44 +32,45 @@ const NewPokemonForm = ({postPokemon}) => {
                 name="name" 
                 onChange={handleChange}
                 value={statePokemon.name}
+            />
+            </p>
+            <p>Pick A Type:</p>
+            <select 
+            type="text"
+            name = "type" 
+            onChange={handleChange} 
+            value={statePokemon.type}
+            > 
+                <option value = "WATER">WATER</option>
+                <option value = "FIRE">FIRE</option>
+                <option value = "GRASS">GRASS</option>
+                <option value = "GROUND">GROUND</option>
+                <option value = "ROCK">ROCK</option>
+                <option value = "STEEL">STEEL</option>
+                <option value = "ICE">ICE</option>
+                <option value = "ELECTRIC">ELECTRIC</option>
+                <option value = "DRAGON">DRAGON</option>
+                <option value = "GHOST">GHOST</option>
+                <option value = "PSYCHIC">PSYCHIC</option>
+                <option value = "NORMAL">NORMAL</option>
+                <option value = "FIGHTING">FIGHTING</option>
+                <option value = "POISON">POISON</option>
+                <option value = "BUG">BUG</option>
+                <option value = "FLYING">FLYING</option>
+                <option value = "DARK">DARK</option>
+                <option value = "FAIRY">FAIRY</option>
+            </select>
+            <p>Enter Level (1 - 100): 
+                <input
+                type="text"
+                placeholder="level"
+                name="level"
+                onChange={handleChange}
+                value={statePokemon.level}
                 />
             </p>
-                <p>Pick A Type:</p>
-                <select 
-                type="text"
-                name = "type" 
-                onChange={handleChange} 
-                value={statePokemon.type}> 
-                    <option value = "WATER">WATER</option>
-                    <option value = "FIRE">FIRE</option>
-                    <option value = "GRASS">GRASS</option>
-                    <option value = "GROUND">GROUND</option>
-                    <option value = "ROCK">ROCK</option>
-                    <option value = "STEEL">STEEL</option>
-                    <option value = "ICE">ICE</option>
-                    <option value = "ELECTRIC">ELECTRIC</option>
-                    <option value = "DRAGON">DRAGON</option>
-                    <option value = "GHOST">GHOST</option>
-                    <option value = "PSYCHIC">PSYCHIC</option>
-                    <option value = "NORMAL">NORMAL</option>
-                    <option value = "FIGHTING">FIGHTING</option>
-                    <option value = "POISON">POISON</option>
-                    <option value = "BUG">BUG</option>
-                    <option value = "FLYING">FLYING</option>
-                    <option value = "DARK">DARK</option>
-                    <option value = "FAIRY">FAIRY</option>
-                </select>
-                <p>Enter Level (1 - 100): 
-                    <input
-                    type="text"
-                    placeholder="level"
-                    name="level"
-                    onChange={handleChange}
-                    value={statePokemon.level}
-                    />
-                </p>
-                <button className="enter-button" type="submit">Enter</button>
-            </form>
+            <button className="enter-button" type="submit">Enter</button>
+        </form>
     )
 }
 

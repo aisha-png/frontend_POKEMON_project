@@ -4,7 +4,6 @@ const Trainer = ({trainer, deleteTrainer}) => {
     deleteTrainer(trainer.id);
 }
 
-
   return (
     <>
         <h1>{trainer.name}</h1>
