@@ -29,6 +29,7 @@ const NewGymForm = ({trainers, postGym}) => {
     }
 
     const handleTrainers = (event) => {
+        console.log(event);
         const trainerId = parseInt(event.target.value);
         const selectedTrainer = trainers.find(trainer => trainer.id === trainerId);
         let copiedGym = {...stateGym};

@@ -24,7 +24,7 @@ const TrainerContainer = () => {
     }
 
     const deleteTrainer = (id) => {
-      fetch("http://localhost:8081/trainers" + id, {
+      fetch("http://localhost:8081/trainers/" + id, {
         method: "DELETE",
         headers: {"Content-Type": "application/json"}
       })
