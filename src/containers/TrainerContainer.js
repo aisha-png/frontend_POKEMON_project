@@ -4,7 +4,7 @@ import TrainerList from '../components/trainers/TrainerList';
 
 const TrainerContainer = () => {
 
-    const [trainers, setTrainers] = useState([]);
+    const [trainers, setTrainers] = useState(localStorage.getItem("trainers") ? JSON.parse(localStorage.getItem("trainers")) : []);
 
     useEffect(() => {
         fetch("http://localhost:8081/trainers")
