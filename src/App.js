@@ -5,6 +5,7 @@ import PokemonContainer from './containers/PokemonContainer';
 import TrainerContainer from './containers/TrainerContainer';
 import GymContainer from './containers/GymContainer';
 import GymLeaderContainer from './containers/GymLeaderContainer';
+import HomePage from './containers/HomePage';
 
 
 
@@ -15,7 +16,7 @@ function App() {
     <div className="App">
       <NavBar />
       <Routes>
-        {/* <Route path='/' element={<HomeNav />} /> */}
+        <Route path='/' element={<HomePage />} />
         <Route path='/pokemons' element={<PokemonContainer />} />
         <Route path='/trainers' element={<TrainerContainer />} />
         <Route path= '/gyms' element={<GymContainer />} />
