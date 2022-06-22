@@ -92,3 +92,9 @@ li a:hover {
   max-width: 1200px;
   min-height: 760px; /* Fixes page not filling issue */
 }
+
+/* Types */
+
+#fire {
+  background-color: red;
+}
