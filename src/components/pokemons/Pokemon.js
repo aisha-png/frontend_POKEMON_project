@@ -21,7 +21,7 @@ const Pokemon = ({pokemon}) => {
     else if (pokemon.type === "FAIRY"){
         pokemonColorType = "#fceaff";
     }
-    else if (pokemon.type === "POSION"){
+    else if (pokemon.type === "POISON"){
         pokemonColorType = "#98d7a5";
     }
     else if (pokemon.type === "BUG"){
