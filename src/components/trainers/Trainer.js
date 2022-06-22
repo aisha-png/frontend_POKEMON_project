@@ -5,11 +5,11 @@ const Trainer = ({trainer, deleteTrainer}) => {
 }
 
   return (
-    <>
+    <div className="trainer">
         <h1>{trainer.name}</h1>
         <h3>{trainer.dob}</h3>
         <button onClick={handleDeleteTrainer}>DELETE</button>
-    </>
+     </div>
   )
 }
 

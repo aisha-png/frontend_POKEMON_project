@@ -11,9 +11,9 @@ const TrainerList = ({trainers, deleteTrainer}) => {
     })
 
   return (
-    <>
+    <div className="trainer_parent_container">
     {trainerComponent}
-    </>
+    </div>
   )
 }
 
