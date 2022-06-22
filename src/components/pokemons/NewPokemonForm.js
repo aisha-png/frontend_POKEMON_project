@@ -25,7 +25,7 @@ const NewPokemonForm = ({postPokemon}) => {
     return(
         <form className="form-pokemon" onSubmit={handleFormSubmit}>
             <h2> Enter a new Pokemon:</h2>
-            <p>Enter Name: 
+            <p>Enter Name:<br/> 
                 <input 
                 type="text" 
                 placeholder="name"
@@ -60,7 +60,7 @@ const NewPokemonForm = ({postPokemon}) => {
                 <option value = "DARK">DARK</option>
                 <option value = "FAIRY">FAIRY</option>
             </select>
-            <p>Enter Level (1 - 100): 
+            <p>Enter Level (1 - 100):<br/> 
                 <input
                 type="text"
                 placeholder="level"

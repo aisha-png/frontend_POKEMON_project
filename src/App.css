@@ -127,6 +127,7 @@ li a:hover {
   padding: 2rem;
   margin: 50px;
   border-radius: 5px;
+  width: 90%;
 }
 
 .form-trainer {
@@ -138,6 +139,7 @@ li a:hover {
   padding: 2rem;
   margin: 50px;
   border-radius: 5px;
+  width: 90%;
 }
 
 /* CONTAINERS */
