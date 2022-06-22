@@ -45,7 +45,7 @@ const NewGymForm = ({postGym}) => {
     // }
 
     return (
-        <form onSubmit={handleFormSubmit}>
+        <form className="form-gym" onSubmit={handleFormSubmit}>
             <h2>Enter name: 
                 <input 
                 type="text" 

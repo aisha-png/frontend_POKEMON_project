@@ -23,7 +23,7 @@ const NewPokemonForm = ({postPokemon}) => {
       }
 
     return(
-        <form onSubmit={handleFormSubmit}>
+        <form className="form-pokemon" onSubmit={handleFormSubmit}>
             <h2> Enter a new Pokemon:</h2>
             <p>Enter Name: 
                 <input 

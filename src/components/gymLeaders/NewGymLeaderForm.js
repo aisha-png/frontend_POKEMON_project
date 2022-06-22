@@ -33,7 +33,7 @@ const NewGymLeaderForm = ({gyms, postGymLeader}) => {
     }
 
     return(
-        <form onSubmit={handleFormSubmit}>
+        <form className="form-gymLeader" onSubmit={handleFormSubmit}>
             <h2>Enter name: 
                 <input 
                 type="text" 

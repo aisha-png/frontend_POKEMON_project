@@ -7,10 +7,10 @@ const GymList = ({gyms, gymLeaders}) => {
     })
 
     return (
-        <>
+        <div className="gym_parent_container">
         {gymComponent}
 
-        </>
+        </div>
     );
 }
 
