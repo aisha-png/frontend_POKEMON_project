@@ -74,6 +74,7 @@ const NewGymForm = ({postGym}) => {
             <option>Select a Gym Leader</option>
             {gymLeaderOptions}
             </select> */}
+            <br/>
             <button className="enter-button" type="submit">Enter</button>
         </form>
     );
