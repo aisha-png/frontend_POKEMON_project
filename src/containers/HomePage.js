@@ -9,7 +9,7 @@ const HomePage = () => {
     <div className="home_body">
       <figure className="home_body_logo"><img src={pokemonLogo} alt="Pokemon Logo"/> </figure>
         <div className="home_body_main"> 
-          <article>
+          <article className='about-article'>
             <h1>What is Pokemon?</h1>
             <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Erat pellentesque adipiscing commodo elit at imperdiet dui accumsan. Nisl pretium fusce id velit. Mollis nunc sed id semper risus in hendrerit. Nec ultrices dui sapien eget mi proin sed libero. Nec sagittis aliquam malesuada bibendum arcu vitae elementum curabitur. Enim nulla aliquet porttitor lacus luctus accumsan. Venenatis a condimentum vitae sapien pellentesque habitant morbi tristique senectus. Nulla aliquet porttitor lacus luctus. Nunc sed blandit libero volutpat. Hendrerit gravida rutrum quisque non. Quis varius quam quisque id diam vel quam. Nibh praesent tristique magna sit.
