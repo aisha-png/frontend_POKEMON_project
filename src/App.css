@@ -296,3 +296,41 @@ li a:hover {
   max-width: 100%;
   min-height: 760px; /* Fixes page not filling issue */
 }
+
+/* Home Page */
+
+#ash{
+  width: 100px;
+}
+
+#ash-div{
+  display: flex;
+}
+
+#ash-info{
+  margin-top: 0%;
+}
+
+#brock{
+  width: 200px;
+}
+
+#brock-div{
+  display: flex;
+}
+
+#brock-info{
+  margin-top: 0%;
+}
+
+#misty{
+  width: 150px;
+}
+
+#misty-div{
+  display: flex;
+}
+
+#misty-info{
+  margin-top: 0%;
+}
