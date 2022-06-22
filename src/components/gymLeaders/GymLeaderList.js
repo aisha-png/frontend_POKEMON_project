@@ -6,9 +6,9 @@ const GymLeaderList = ({gymLeaders, gyms}) => {
     })
 
     return(
-        <>
+        <div className="gymLeader_parent_container">
             {gymLeaderComponent}
-        </>
+        </div>
     );
 }
 export default GymLeaderList;
