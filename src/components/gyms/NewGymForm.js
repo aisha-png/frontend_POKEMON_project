@@ -46,7 +46,8 @@ const NewGymForm = ({postGym}) => {
 
     return (
         <form className="form-gym" onSubmit={handleFormSubmit}>
-            <h2>Enter name: 
+            <h2>Enter a new Gym: </h2>
+            <p> Enter a name</p>
                 <input 
                 type="text" 
                 placeholder="name"
@@ -54,7 +55,7 @@ const NewGymForm = ({postGym}) => {
                 onChange={handleChange}
                 value={stateGym.name}
                 /> 
-            </h2>
+            
         {/* <select 
             name="trainer" 
             onChange={handleTrainers} 

@@ -34,7 +34,8 @@ const NewGymLeaderForm = ({gyms, postGymLeader}) => {
 
     return(
         <form className="form-gymLeader" onSubmit={handleFormSubmit}>
-            <h2>Enter name: 
+            <h2>Enter a new Gym Leader: </h2>
+            <p>Enter a name</p>
                 <input 
                 type="text" 
                 placeholder="name"
@@ -42,7 +43,7 @@ const NewGymLeaderForm = ({gyms, postGymLeader}) => {
                 onChange={handleChange}
                 value={stateGymLeader.name}
                 /> 
-            </h2>
+                <p>Select a Gym</p>
             <select 
             name="gym" 
             onChange={handleGyms} 
@@ -50,6 +51,7 @@ const NewGymLeaderForm = ({gyms, postGymLeader}) => {
             <option>Select a Gym</option>
             {gymOptions}
             </select>
+            <br/>
             <button className="enter-button" type="submit">Enter</button>
         </form>
         
