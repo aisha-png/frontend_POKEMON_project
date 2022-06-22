@@ -41,6 +41,7 @@ const NewPokemonForm = ({postPokemon}) => {
             onChange={handleChange} 
             value={statePokemon.type}
             > 
+                <option placeholder="Choose A Type">Choose A type</option>
                 <option value = "WATER">WATER</option>
                 <option value = "FIRE">FIRE</option>
                 <option value = "GRASS">GRASS</option>

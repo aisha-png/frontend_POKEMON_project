@@ -15,8 +15,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #d61a1a; /* Background styling added by us */
-
+  /* background-color: #d61a1a;  Background styling added by us  */
 }
 
 /* Global Styling */
@@ -28,27 +27,28 @@
 }
 
 button {
-  border: 2px solid #3B4CCA;
+  border: 2px solid black;
   border-radius: 12px;
   padding: 5px;
-  background-color: #3B4CCA;
+  background-color: #ffff;
   size: 100px;
   cursor: pointer;
 }
 
 /* Currently input style not working 01:41 22/06/2022 */
 input {
-  width: 90%;
+  width: 800px;
   color: black;
   background-color: rgb(201, 221, 219);
   padding: 14px 20px;
+  margin-top: 10px;
   margin-bottom: 25px;
   border: none;
   /* border-radius: 4px; */
 }
 
 select {
-  width: 90%;
+  width: 800px;
   color: black;
   background-color: rgb(201, 221, 219);
   padding: 14px 20px;
@@ -168,7 +168,7 @@ li a:hover {
   padding: 2rem;
   margin: 50px;
   border-radius: 5px;
-  width: 90%;
+  min-width: 1800px;
 }
 
 .form-trainer {
@@ -209,7 +209,7 @@ li a:hover {
   justify-content: space-evenly;
   align-items: center;
   flex-wrap: wrap;
-  max-width: 100%;
+  max-width: 1800px;
   min-height: 760px; /* Fixes page not filling issue */
 }
 
@@ -309,7 +309,7 @@ li a:hover {
   margin: 1rem 3rem;
   padding: 2rem;  
   border-radius: 1rem;
-  background-color: #c5c5c5;
+  background-color: #ffffbf;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -331,7 +331,7 @@ li a:hover {
   margin: 1rem 3rem;
   padding: 2rem;  
   border-radius: 1rem;
-  background-color: #c5c5c5;
+  background-color: #ffffbf;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -353,7 +353,7 @@ li a:hover {
   margin: 1rem 3rem;
   padding: 2rem;  
   border-radius: 1rem;
-  background-color: #c5c5c5;
+  background-color: #ffffbf;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -369,7 +369,7 @@ li a:hover {
   margin: 1rem 3rem;
   padding: 2rem;  
   border-radius: 1rem;
-  background-color: #c5c5c5;
+  background-color: #ffffbf;
   justify-content: space-evenly;
   align-items: center;
   max-width: 100%;
