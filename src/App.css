@@ -17,7 +17,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #ffffff; /* Background styling added by us */
+  background-color: #d61a1a; /* Background styling added by us */
 
 }
 
@@ -46,6 +46,9 @@
   overflow: hidden;
   background-color: #3B4CCA;
   width: 100%;
+  /* updates */
+  position: sticky;
+  top: 0;
 }
 
 .nav-bar-item {
