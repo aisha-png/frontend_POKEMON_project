@@ -1,9 +1,11 @@
+import { useEffect, useState } from "react";
+
 const Pokemon = ({pokemon}) => {
 
     let pokemonColorType = "";
 
     if(pokemon.type === "FIRE") {
-        console.log(pokemon.name);
+        // console.log(pokemon.name);
         pokemonColorType = "#FDDFDF";
     }
     else if (pokemon.type === "GRASS"){
@@ -48,10 +50,19 @@ const Pokemon = ({pokemon}) => {
     else if (pokemon.type === "ELECTRIC") {
         pokemonColorType = "#FCF7DE";
     }
+
+    let [pokemonFrontSpriteURL, setPokemonFrontSpriteURL] = useState("");
+
+    useEffect(( ) => {
+        fetch ("https://pokeapi.co/api/v2/pokemon/" + pokemon.name + "/")
+        .then(response => response.json())
+        .then (pokemonData => setPokemonFrontSpriteURL(pokemonData.sprites.front_default));
+    }, [pokemon.name]);
     
     return(
         <div style={{backgroundColor: pokemonColorType}} className = "pokemon">
             <h1>{pokemon.name}</h1>
+            <img src={pokemonFrontSpriteURL} alt="A pokemon"/>
             <h3>{pokemon.type}</h3>
             <h4>{pokemon.level}</h4>
         </div>
