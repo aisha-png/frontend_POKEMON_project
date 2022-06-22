@@ -21,7 +21,7 @@ const NewTrainerForm = ({postTrainer}) => {
   }
 
   return (
-    <form onSubmit={handleFormSubmit}>
+    <form className="form-trainer" onSubmit={handleFormSubmit}>
       <h2>Enter a new Traianer here:</h2>
       <p>Enter name: 
         <input 
