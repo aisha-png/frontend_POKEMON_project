@@ -305,6 +305,15 @@ li a:hover {
 
 #ash-div{
   display: flex;
+  box-shadow: 0.2rem 0.5rem 2rem;
+  margin: 1rem 3rem;
+  padding: 2rem;  
+  border-radius: 1rem;
+  background-color: #c5c5c5;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  max-width: 100%;
 }
 
 #ash-info{
@@ -317,6 +326,16 @@ li a:hover {
 
 #brock-div{
   display: flex;
+  display: flex;
+  box-shadow: 0.2rem 0.5rem 2rem;
+  margin: 1rem 3rem;
+  padding: 2rem;  
+  border-radius: 1rem;
+  background-color: #c5c5c5;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  max-width: 100%;
 }
 
 #brock-info{
@@ -329,8 +348,35 @@ li a:hover {
 
 #misty-div{
   display: flex;
+  display: flex;
+  box-shadow: 0.2rem 0.5rem 2rem;
+  margin: 1rem 3rem;
+  padding: 2rem;  
+  border-radius: 1rem;
+  background-color: #c5c5c5;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  max-width: 100%;
 }
 
 #misty-info{
   margin-top: 0%;
 }
+
+.about-article {
+  box-shadow: 0.2rem 0.5rem 2rem;
+  margin: 1rem 3rem;
+  padding: 2rem;  
+  border-radius: 1rem;
+  background-color: #c5c5c5;
+  justify-content: space-evenly;
+  align-items: center;
+  max-width: 100%;
+}
+
+.h1_home_about {
+  margin-bottom: 25px;
+  font-size: 3rem;
+}
+
