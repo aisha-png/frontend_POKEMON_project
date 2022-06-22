@@ -10,7 +10,7 @@ const HomePage = () => {
       <figure className="home_body_logo"><img src={pokemonLogo} alt="Pokemon Logo"/> </figure>
         <div className="home_body_main"> 
           <article className='about-article'>
-            <h1>What is Pokemon?</h1>
+            <h1 className='h1_home_about'>What is Pokemon?</h1>
             <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Erat pellentesque adipiscing commodo elit at imperdiet dui accumsan. Nisl pretium fusce id velit. Mollis nunc sed id semper risus in hendrerit. Nec ultrices dui sapien eget mi proin sed libero. Nec sagittis aliquam malesuada bibendum arcu vitae elementum curabitur. Enim nulla aliquet porttitor lacus luctus accumsan. Venenatis a condimentum vitae sapien pellentesque habitant morbi tristique senectus. Nulla aliquet porttitor lacus luctus. Nunc sed blandit libero volutpat. Hendrerit gravida rutrum quisque non. Quis varius quam quisque id diam vel quam. Nibh praesent tristique magna sit.
           
@@ -49,6 +49,8 @@ const HomePage = () => {
           </p> 
           <figure className="home_body_image"><img id='brock' className="trainer-image" src={brockImage} alt="Pokemon"/></figure>
           </div>
+          <br/>
+          <br/>
           <div id='misty-div'>
           <figure className="home_body_image"><img id='misty' className="trainer-image" src={mistyImage} alt="Pokemon"/></figure>
           <p id='misty-info'>sh Ketchum, known as Satoshi (サトシ) in Japan, is a fictional character in the Pokémon franchise owned by Nintendo. He is the protagonist of the Pokémon anime and certain manga series as well as on various merchandise related to the franchise. In Japanese, the character is voiced by Rika Matsumoto, and Hana Takeda. In the English dub, he was voiced by Veronica Taylor in the first eight seasons and has been voiced by Sarah Natochenny since season 9. In the Hindi dub, Prasad Barve dub Season 1–14 for Cartoon Network, Season 10 for Disney and Nachiket Dighe for Season 1–9, 11–present for Disney. In the Korean dub, he was voiced by Choi Deok-Hui in the first five seasons and first two films, An Hyeon-Seo in Pokémon films three through five, and has been voiced by Lee Seon-ho since season six and the sixth Pokémon film.
