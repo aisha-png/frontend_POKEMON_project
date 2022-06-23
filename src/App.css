@@ -389,6 +389,7 @@ p {
 }
 
 .about-article {
+  display: flex;
   box-shadow: 0.2rem 0.5rem 2rem;
   margin: 1rem 3rem;
   padding: 2rem;  
@@ -402,5 +403,55 @@ p {
 .h1_home_about {
   margin-bottom: 25px;
   font-size: 3rem;
+}
+
+.footer-body {
+  line-height: 1.5;
+  font-family: 'Poppins', sans-serif;
+}
+.container {
+  max-width: 1170px;
+  margin: auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer-ul {
+  list-style: none;
+}
+
+.footer {
+  background-color: #297383;
+  padding: 70px 0;
+}
+
+.footer-column {
+  width: 25%;
+  padding: 0 15px;
+
+}
+
+.footer-column h4 {
+  font-size: 18px;
+  color: white;
+  text-transform: capitalize;
+  margin-bottom: 30px;
+  font-weight: 500;
+
+
+}
+
+.footer-column h4::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  background-color: rgb(51, 153, 95);
+  height: 2px;
+  box-sizing: border-box;
+  width: 50px;
 }
 
