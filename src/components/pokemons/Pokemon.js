@@ -4,6 +4,14 @@ const Pokemon = ({pokemon}) => {
 
     let pokemonColorType = "";
 
+    let [pokemonFrontSpriteURL, setPokemonFrontSpriteURL] = useState("");
+
+    useEffect(( ) => {
+        fetch ("https://pokeapi.co/api/v2/pokemon/" + pokemon.name + "/")
+        .then(response => response.json())
+        .then (pokemonData => setPokemonFrontSpriteURL(pokemonData.sprites.front_default));
+    }, [pokemon.name]);
+
     switch(pokemon.type) {
         case "FIRE":
             pokemonColorType = "#EE8130";
@@ -62,21 +70,13 @@ const Pokemon = ({pokemon}) => {
         default:
             console.log("Switch cas error in Pokemon.js");
     }
-
-    let [pokemonFrontSpriteURL, setPokemonFrontSpriteURL] = useState("");
-
-    useEffect(( ) => {
-        fetch ("https://pokeapi.co/api/v2/pokemon/" + pokemon.name + "/")
-        .then(response => response.json())
-        .then (pokemonData => setPokemonFrontSpriteURL(pokemonData.sprites.front_default));
-    }, [pokemon.name]);
     
     return(
         <div style={{backgroundColor: pokemonColorType}} className = "pokemon">
             <h1>{pokemon.name}</h1>
             <img src={pokemonFrontSpriteURL} alt="A pokemon sprite"/>
             <h3>{pokemon.type}</h3>
-            <h4>{pokemon.level}</h4>
+            <h4>Level: {pokemon.level}</h4>
         </div>
     )
 }
