@@ -19,7 +19,7 @@ Front end project consisting of a team of 4 as part of the BNTA programme, a wee
 6. In terminal type `npm start`
 # Project Structure
 ## Wireframe
-![This is an image](<img src="/src/images/project-structure.png">)
+
 # Using the API - HTTP Request
 ## Plain Old Java (POJO)
 In this section, the POJOs used in the project are listed along with their properties and related JSON structure when using some `POST`and `GET` requests.
