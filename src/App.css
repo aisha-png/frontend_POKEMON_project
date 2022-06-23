@@ -140,13 +140,11 @@ p {
   text-align: center;
   display: block;
   margin-bottom: 3rem;
-  background-color: #cc773f;
+  background-color: #F5F5F5;
   padding: 2rem;
   margin: 50px;
   border-radius: 5px;
-  width: auto;
-  min-width: 1340px;
- 
+  min-width: 1800px;
 }
 
 .form-gym {
@@ -154,12 +152,11 @@ p {
   text-align: center;
   display: block;
   margin-bottom: 3rem;
-  background-color: #a47329;
+  background-color: #F5F5F5;
   padding: 2rem;
   margin: 50px;
   border-radius: 5px;
-  width: 90%;
-  min-width: 1600px;
+  min-width: 1800px;
 }
 
 .form-pokemon {
@@ -179,11 +176,11 @@ p {
   text-align: center;
   display: block;
   margin-bottom: 3rem;
-  background-color: #8b52ac;
+  background-color: #F5F5F5;
   padding: 2rem;
   margin: 50px;
   border-radius: 5px;
-  min-width: 1950px;
+  min-width: 1800px;
 }
 
 /* CONTAINERS */
