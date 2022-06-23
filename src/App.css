@@ -214,7 +214,8 @@ p {
 }
 
 .trainer {
-  background-color: #eee;
+  background-color: rgb(201, 221, 219);
+  ;
   border-radius: 20px;
   box-shadow: 0 3px 15px rgba(100, 100, 100, 0.5);
   padding: 1rem;
@@ -232,17 +233,17 @@ p {
   margin: 1rem 3rem;
   padding: 2rem;  
   border-radius: 1rem;
-  background-color: #c5c5c5;
+  background-color: #f5f5f5;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   flex-wrap: wrap;
-  max-width: 100%;
+  max-width: 1800px;
   min-height: 760px; /* Fixes page not filling issue */
 }
 
 .gym {
-  background-color: #eee;
+  background-color: rgb(201, 221, 219);
   border-radius: 20px;
   box-shadow: 0 3px 15px rgba(100, 100, 100, 0.5);
   padding: 1rem;
@@ -260,17 +261,17 @@ p {
   margin: 1rem 3rem;
   padding: 2rem;  
   border-radius: 1rem;
-  background-color: #c5c5c5;
+  background-color: #f5f5f5;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   flex-wrap: wrap;
-  max-width: 100%;
+  max-width: 1800px;
   min-height: 760px; /* Fixes page not filling issue */
 }
 
 .gymLeader {
-  background-color: #eee;
+  background-color: rgb(201, 221, 219);
   border-radius: 20px;
   box-shadow: 0 3px 15px rgba(100, 100, 100, 0.5);
   padding: 1rem;
@@ -288,12 +289,12 @@ p {
   margin: 1rem 3rem;
   padding: 2rem;  
   border-radius: 1rem;
-  background-color: #c5c5c5;
+  background-color: #f5f5f5;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   flex-wrap: wrap;
-  max-width: 100%;
+  max-width: 1800px;
   min-height: 760px; /* Fixes page not filling issue */
 }
 
