@@ -10,7 +10,7 @@ const FooterLayout = () => {
                 <div className='container'>
                     <div className='row'>
                         <div className='footer-column'>
-                            <h4>Company</h4>
+                            <h4>Patreon</h4>
                             <ul className='footer-ul'>
                                 <li><a href='https://www.google.co.uk/'>about us</a></li>
                                 <li><a href='https://www.google.co.uk/'>our services</a></li>
