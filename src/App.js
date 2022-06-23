@@ -6,6 +6,7 @@ import TrainerContainer from './containers/TrainerContainer';
 import GymContainer from './containers/GymContainer';
 import GymLeaderContainer from './containers/GymLeaderContainer';
 import HomePage from './containers/HomePage';
+import FooterLayout from './components/footer/FooterLayout';
 
 
 
@@ -24,6 +25,7 @@ function App() {
         </Routes>
       </div>
     </Router>
+    <FooterLayout />
     </>
   );
 }
