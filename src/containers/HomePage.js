@@ -25,7 +25,7 @@ const HomePage = () => {
           <br/>
           <div id='ash-div'>
           <figure className="home_body_image"><img id='ash' className="trainer-image" src={ashImage} alt="Pokemon"/></figure>
-          <p id='ash-info'>sh Ketchum, known as Satoshi (サトシ) in Japan, is a fictional character in the Pokémon franchise owned by Nintendo. He is the protagonist of the Pokémon anime and certain manga series as well as on various merchandise related to the franchise. In Japanese, the character is voiced by Rika Matsumoto, and Hana Takeda. In the English dub, he was voiced by Veronica Taylor in the first eight seasons and has been voiced by Sarah Natochenny since season 9. In the Hindi dub, Prasad Barve dub Season 1–14 for Cartoon Network, Season 10 for Disney and Nachiket Dighe for Season 1–9, 11–present for Disney. In the Korean dub, he was voiced by Choi Deok-Hui in the first five seasons and first two films, An Hyeon-Seo in Pokémon films three through five, and has been voiced by Lee Seon-ho since season six and the sixth Pokémon film.
+          <p id='ash-info'>Ash Ketchum, known as Satoshi (サトシ) in Japan, is a fictional character in the Pokémon franchise owned by Nintendo. He is the protagonist of the Pokémon anime and certain manga series as well as on various merchandise related to the franchise. In Japanese, the character is voiced by Rika Matsumoto, and Hana Takeda. In the English dub, he was voiced by Veronica Taylor in the first eight seasons and has been voiced by Sarah Natochenny since season 9. In the Hindi dub, Prasad Barve dub Season 1–14 for Cartoon Network, Season 10 for Disney and Nachiket Dighe for Season 1–9, 11–present for Disney. In the Korean dub, he was voiced by Choi Deok-Hui in the first five seasons and first two films, An Hyeon-Seo in Pokémon films three through five, and has been voiced by Lee Seon-ho since season six and the sixth Pokémon film.
 
           His English name is derived from the Japanese name (as the letters 'ash' are included in 'Satoshi') and his English motto is derived from the Japanese motto (as the letters 'Gotta catch ém all!' are included in 'Pokémon getto da ze!'). Ash's dream is to become a Pokémon Master. He is loosely based on Red, the player character from the Generation I games Pokémon Red, Green, Blue and Yellow as well as the Generation III games Pokémon FireRed and LeafGreen versions.
 
@@ -37,7 +37,7 @@ const HomePage = () => {
           <br/>
           <br/>
           <div id='brock-div'>
-          <p id='brock-info'>sh Ketchum, known as Satoshi (サトシ) in Japan, is a fictional character in the Pokémon franchise owned by Nintendo. He is the protagonist of the Pokémon anime and certain manga series as well as on various merchandise related to the franchise. In Japanese, the character is voiced by Rika Matsumoto, and Hana Takeda. In the English dub, he was voiced by Veronica Taylor in the first eight seasons and has been voiced by Sarah Natochenny since season 9. In the Hindi dub, Prasad Barve dub Season 1–14 for Cartoon Network, Season 10 for Disney and Nachiket Dighe for Season 1–9, 11–present for Disney. In the Korean dub, he was voiced by Choi Deok-Hui in the first five seasons and first two films, An Hyeon-Seo in Pokémon films three through five, and has been voiced by Lee Seon-ho since season six and the sixth Pokémon film.
+          <p id='brock-info'>Ash Ketchum, known as Satoshi (サトシ) in Japan, is a fictional character in the Pokémon franchise owned by Nintendo. He is the protagonist of the Pokémon anime and certain manga series as well as on various merchandise related to the franchise. In Japanese, the character is voiced by Rika Matsumoto, and Hana Takeda. In the English dub, he was voiced by Veronica Taylor in the first eight seasons and has been voiced by Sarah Natochenny since season 9. In the Hindi dub, Prasad Barve dub Season 1–14 for Cartoon Network, Season 10 for Disney and Nachiket Dighe for Season 1–9, 11–present for Disney. In the Korean dub, he was voiced by Choi Deok-Hui in the first five seasons and first two films, An Hyeon-Seo in Pokémon films three through five, and has been voiced by Lee Seon-ho since season six and the sixth Pokémon film.
 
           His English name is derived from the Japanese name (as the letters 'ash' are included in 'Satoshi') and his English motto is derived from the Japanese motto (as the letters 'Gotta catch ém all!' are included in 'Pokémon getto da ze!'). Ash's dream is to become a Pokémon Master. He is loosely based on Red, the player character from the Generation I games Pokémon Red, Green, Blue and Yellow as well as the Generation III games Pokémon FireRed and LeafGreen versions.
 
@@ -51,7 +51,7 @@ const HomePage = () => {
           <br/>
           <div id='misty-div'>
           <figure className="home_body_image"><img id='misty' className="trainer-image" src={mistyImage} alt="Pokemon"/></figure>
-          <p id='misty-info'>sh Ketchum, known as Satoshi (サトシ) in Japan, is a fictional character in the Pokémon franchise owned by Nintendo. He is the protagonist of the Pokémon anime and certain manga series as well as on various merchandise related to the franchise. In Japanese, the character is voiced by Rika Matsumoto, and Hana Takeda. In the English dub, he was voiced by Veronica Taylor in the first eight seasons and has been voiced by Sarah Natochenny since season 9. In the Hindi dub, Prasad Barve dub Season 1–14 for Cartoon Network, Season 10 for Disney and Nachiket Dighe for Season 1–9, 11–present for Disney. In the Korean dub, he was voiced by Choi Deok-Hui in the first five seasons and first two films, An Hyeon-Seo in Pokémon films three through five, and has been voiced by Lee Seon-ho since season six and the sixth Pokémon film.
+          <p id='misty-info'>Ash Ketchum, known as Satoshi (サトシ) in Japan, is a fictional character in the Pokémon franchise owned by Nintendo. He is the protagonist of the Pokémon anime and certain manga series as well as on various merchandise related to the franchise. In Japanese, the character is voiced by Rika Matsumoto, and Hana Takeda. In the English dub, he was voiced by Veronica Taylor in the first eight seasons and has been voiced by Sarah Natochenny since season 9. In the Hindi dub, Prasad Barve dub Season 1–14 for Cartoon Network, Season 10 for Disney and Nachiket Dighe for Season 1–9, 11–present for Disney. In the Korean dub, he was voiced by Choi Deok-Hui in the first five seasons and first two films, An Hyeon-Seo in Pokémon films three through five, and has been voiced by Lee Seon-ho since season six and the sixth Pokémon film.
 
           His English name is derived from the Japanese name (as the letters 'ash' are included in 'Satoshi') and his English motto is derived from the Japanese motto (as the letters 'Gotta catch ém all!' are included in 'Pokémon getto da ze!'). Ash's dream is to become a Pokémon Master. He is loosely based on Red, the player character from the Generation I games Pokémon Red, Green, Blue and Yellow as well as the Generation III games Pokémon FireRed and LeafGreen versions.
 
@@ -59,8 +59,9 @@ const HomePage = () => {
 
           As the protagonist of the Pokémon anime, Ash has appeared in all but one episode of the anime, all the films, and several of the television specials  
           </p> 
-          </div>
         </div>
+        </div>
+        <figure className="above-footer-image-pokemons"><img id='four-pokemon-group' className="four-pokemons-image" src={pokemonGroup} alt="four pokemons"/></figure> 
     </div>
   )
 }
