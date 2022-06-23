@@ -68,7 +68,7 @@ const Pokemon = ({pokemon}) => {
             pokemonColorType = "#735797";
             break;
         default:
-            console.log("Switch case error in Pokemon.js");
+            console.log("Switch cas error in Pokemon.js");
     }
     
     return(
