@@ -4,10 +4,8 @@ We are Pokemon trainers, a team consisting of [BNTA](https://techacademy.brightn
 # Table of Contents
 - [Summary](#summary)
 - [Step-by- step instructions for inital set-up](#step-by-step-instructions-for-initial-set-up)
-- [Project Structure](#project-structure)
-- [Using the API - HTTP Requests](#using-the-api---http-request)
-    - [Pokemon Commands](#pokemon-commands)
-    - [Other Commands](#other-commands)
+- [Wireframe](#wireframe)
+
 # Summary
 Front end project consisting of a team of 4 as part of the BNTA programme, a week 11 project using an API from a previous groups backend project, where we used react. The website contains a home page, a pokemon page where the user can view and enter pokemon using the CRUD functionality into the database using a react form, and similarly to the pokemon page we have a gym and gymLeader page with the view and enter functionaility also.
 # Step-by-step instructions for initial set up
@@ -18,5 +16,6 @@ Front end project consisting of a team of 4 as part of the BNTA programme, a wee
 5. Open a new terminal up, type `npm install`
 6. In terminal type `npm start`
 ## Wireframe
+![project-structure](https://user-images.githubusercontent.com/96268466/175270751-97da629c-81c0-4f6a-aecf-5bc8ff5188e0.png)
 # Acknowledegements
 A massive thanks to the [BNTA](https://techacademy.brightnetwork.co.uk/) team, and especially to our trainers [Richard](https://github.com/biancakendall29/w07_server_side_project#summary) and [Anna](https://github.com/biancakendall29/w07_server_side_project#summary)!
