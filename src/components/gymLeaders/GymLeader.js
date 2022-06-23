@@ -20,16 +20,6 @@ const GymLeader = ({gyms, gymLeader}) => {
 
     let gymLeaderImageSource = null;
 
-    // if(gymLeader.name === 'Brock') {
-    //     gymLeaderImageSource = image.brock
-    // } else if(gymLeader.name === 'Misty') {
-    //     gymLeaderImageSource = image.misty
-    // } else if(gymLeader.name === 'Lt Surge') {
-    //     gymLeaderImageSource = image.ltsurge
-    // } else if(gymLeader.name === 'Erika') {
-    //     gymLeaderImageSource = image.erika
-    // }
-
     switch(gymLeader.name) {
         case 'Brock':
             gymLeaderImageSource = image.brock;
