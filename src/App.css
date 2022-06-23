@@ -420,6 +420,11 @@ p {
   list-style: none;
 }
 
+.footer-li {
+  text-decoration: none;
+  color: white;
+}
+
 .footer {
   background-color: #297383;
   padding: 70px 0;
@@ -441,7 +446,7 @@ p {
 
 }
 
-.footer-column h4::before {
+/* .footer-column h4::before {
   content: '';
   position: absolute;
   left: 0;
@@ -450,5 +455,5 @@ p {
   height: 2px;
   box-sizing: border-box;
   width: 50px;
-}
+} */
 

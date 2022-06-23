@@ -61,7 +61,9 @@ const HomePage = () => {
           </p> 
         </div>
         </div>
-        <figure className="above-footer-image-pokemons"><img id='four-pokemon-group' className="four-pokemons-image" src={pokemonGroup} alt="four pokemons"/></figure> 
+        <figure className="above-footer-image-pokemons">
+          <img id='four-pokemon-group' className="four-pokemons-image" src={pokemonGroup} alt="four pokemons"/>
+        </figure> 
     </div>
   )
 }
