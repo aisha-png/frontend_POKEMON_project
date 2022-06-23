@@ -20,6 +20,109 @@ const GymLeader = ({gyms, gymLeader}) => {
 
     let gymLeaderImageSource = null;
 
+    let pokemonColorTypeForGym = "";
+
+    switch(gymLeader.name) {
+        case "Brock":
+            pokemonColorTypeForGym = "#B6A136";
+            break;
+        case "Misty":
+            pokemonColorTypeForGym = "#6390F0";
+            break;
+        case "Lt Surge":
+            pokemonColorTypeForGym = "#F7D02C";
+            break;
+        case "Erika":
+            pokemonColorTypeForGym = "#7AC74C";
+            break;
+        case "Koga":
+            pokemonColorTypeForGym = "#A33EA1";
+            break;
+        case "Sabrina":
+            pokemonColorTypeForGym = "#F95587";
+            break;
+        case "Blaine":
+            pokemonColorTypeForGym = "#EE8130";
+            break; 
+        case "Blue":
+            pokemonColorTypeForGym = "#A8A77A";
+            break; 
+        case "Roark":
+            pokemonColorTypeForGym = "#B6A136";
+            break; 
+        case "Gardenia":
+            pokemonColorTypeForGym = "#7AC74C";
+            break; 
+        case "Maylene":
+            pokemonColorTypeForGym = "#C22E28";
+            break; 
+        case "Crasher Wake":
+            pokemonColorTypeForGym = "#6390F0";
+            break; 
+        case "Fantina":
+            pokemonColorTypeForGym = "#735797";
+            break; 
+        case "Byron":
+            pokemonColorTypeForGym = "#B7B7CE";
+            break; 
+        case "Candice":
+            pokemonColorTypeForGym = "#96D9D6";
+            break; 
+        case "Volkner":
+            pokemonColorTypeForGym = "#F7D02C";
+            break;
+        case "Falkner":
+            pokemonColorTypeForGym = "#A98FF3";
+            break;
+        case "Bugsy":
+            pokemonColorTypeForGym = "#A6B91A";
+            break;
+        case "Whitney":
+            pokemonColorTypeForGym = "#A8A77A";
+            break;
+        case "Morty":
+            pokemonColorTypeForGym = "#735797";
+            break;
+        case "Chuck":
+            pokemonColorTypeForGym = "#C22E28";
+            break;
+        case "Jasmine":
+            pokemonColorTypeForGym = "#B7B7CE";
+            break;
+        case "Pryce":
+            pokemonColorTypeForGym = "#96D9D6";
+            break;
+        case "Clair":
+            pokemonColorTypeForGym = "#6F35FC";
+            break;
+        case "Roxanne":
+            pokemonColorTypeForGym = "#B6A136";
+            break;
+        case "Brawly":
+            pokemonColorTypeForGym = "#C22E28";
+            break;
+        case "Wattson":
+            pokemonColorTypeForGym = "#F7D02C";
+            break; 
+        case "Flannery":
+            pokemonColorTypeForGym = "#EE8130";
+            break; 
+        case "Norman":
+            pokemonColorTypeForGym = "#A8A77A";
+            break; 
+        case "Winona":
+            pokemonColorTypeForGym = "#A98FF3";
+            break;
+        case "Tate And Liza":
+            pokemonColorTypeForGym = "#F95587";
+            break;   
+        case "Wallace":
+            pokemonColorTypeForGym = "#6390F0";
+            break;        
+        default:
+            console.log("Switch cas error in Pokemon.js");
+    }
+
     switch(gymLeader.name) {
         case 'Brock':
             gymLeaderImageSource = image.brock;
@@ -122,7 +225,7 @@ const GymLeader = ({gyms, gymLeader}) => {
     }  
 
     return(
-        <div className="gymLeader">
+        <div style={{backgroundColor: pokemonColorTypeForGym}} className="gymLeader">
         <h1>{gymLeader.name}</h1>
         {/* <h2>{gymLeader.gym.name}</h2> */}
         {matchedGymtoGymLeader}

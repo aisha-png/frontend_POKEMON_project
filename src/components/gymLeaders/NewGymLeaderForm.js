@@ -35,14 +35,53 @@ const NewGymLeaderForm = ({gyms, postGymLeader}) => {
     return(
         <form className="form-gymLeader" onSubmit={handleFormSubmit}>
             <h2>Enter a new Gym Leader: </h2>
-            <p>Enter a name</p>
+            <select  
+            type="text"
+            name = "name" 
+            onChange={handleChange} 
+            >
+                <option>Choose An option</option>
+                <option>Brock</option>
+                <option>Misty</option>
+                <option>Lt Surge</option>
+                <option>Erika</option>
+                <option>Koga</option>
+                <option>Sabrina</option>
+                <option>Blaine</option>
+                <option>Blue</option>
+                <option>Roark</option>
+                <option>Gardenia</option>
+                <option>Maylene</option>
+                <option>Crasher Wake</option>
+                <option>Fantina</option>
+                <option>Byron</option>
+                <option>Candice</option>
+                <option>Volkner</option>
+                <option>Falkner</option>
+                <option>Bugsy</option>
+                <option>Whitney</option>
+                <option>Morty</option>
+                <option>Chuck</option>
+                <option>Jasmine</option>
+                <option>Pryce</option>
+                <option>Clair</option>
+                <option>Roxanne</option>
+                <option>Brawly</option>
+                <option>Wattson</option>
+                <option>Flannery</option>
+                <option>Norman</option>
+                <option>Winona</option>
+                <option>Tate And Liza</option>
+                <option>Wallace</option>
+            </select>
+            {/* <p>Enter a name</p>
                 <input 
                 type="text" 
                 placeholder="name"
                 name="name"
                 onChange={handleChange}
                 value={stateGymLeader.name}
-                /> 
+                />  */}
                 <p>Select a Gym</p>
             <select 
             name="gym" 
