@@ -201,7 +201,7 @@ p {
 
 .pokemon_parent_container {
   box-shadow: 0.2rem 0.5rem 2rem;
-  margin: 1rem 3rem;
+  /* margin: 1rem 5rem; */
   padding: 2rem;  
   border-radius: 1rem;
   background-color: #f5f5f5;
@@ -211,6 +211,7 @@ p {
   flex-wrap: wrap;
   max-width: 1800px;
   min-height: 760px; /* Fixes page not filling issue */
+  margin-bottom: 18rem;
 }
 
 .trainer {
@@ -230,7 +231,7 @@ p {
 
 .trainer_parent_container {
   box-shadow: 0.2rem 0.5rem 2rem;
-  margin: 1rem 3rem;
+  /* margin: 1rem 3rem; */
   padding: 2rem;  
   border-radius: 1rem;
   background-color: #f5f5f5;
@@ -240,6 +241,7 @@ p {
   flex-wrap: wrap;
   max-width: 1800px;
   min-height: 760px; /* Fixes page not filling issue */
+  margin-bottom: 18rem;
 }
 
 .gym {
@@ -258,7 +260,7 @@ p {
 
 .gym_parent_container {
   box-shadow: 0.2rem 0.5rem 2rem;
-  margin: 1rem 3rem;
+  /* margin: 1rem 3rem; */
   padding: 2rem;  
   border-radius: 1rem;
   background-color: #f5f5f5;
@@ -268,6 +270,7 @@ p {
   flex-wrap: wrap;
   max-width: 1800px;
   min-height: 760px; /* Fixes page not filling issue */
+  margin-bottom: 18rem;
 }
 
 .gymLeader {
@@ -286,7 +289,7 @@ p {
 
 .gymLeader_parent_container {
   box-shadow: 0.2rem 0.5rem 2rem;
-  margin: 1rem 3rem;
+  /* margin: 1rem 3rem; */
   padding: 2rem;  
   border-radius: 1rem;
   background-color: #f5f5f5;
@@ -296,6 +299,7 @@ p {
   flex-wrap: wrap;
   max-width: 1800px;
   min-height: 760px; /* Fixes page not filling issue */
+  margin-bottom: 18rem;
 }
 
 /* Home Page */
@@ -406,7 +410,7 @@ p {
 .footer-body {
   line-height: 1.5;
   font-family: 'Poppins', sans-serif;
-  margin-top: 200px;
+  /* margin-top: 200px; */
 }
 .container {
   max-width: 1170px;
