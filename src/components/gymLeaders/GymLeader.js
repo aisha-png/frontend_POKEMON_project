@@ -20,14 +20,43 @@ const GymLeader = ({gyms, gymLeader}) => {
 
     let gymLeaderImageSource = null;
 
-    if(gymLeader.name === 'Brock') {
-        gymLeaderImageSource = image.brock
-    } else if(gymLeader.name === 'Misty') {
-        gymLeaderImageSource = image.misty
-    } else if(gymLeader.name === 'Lt Surge') {
-        gymLeaderImageSource = image.ltsurge
-    } else if(gymLeader.name === 'Erika') {
-        gymLeaderImageSource = image.erika
+    // if(gymLeader.name === 'Brock') {
+    //     gymLeaderImageSource = image.brock
+    // } else if(gymLeader.name === 'Misty') {
+    //     gymLeaderImageSource = image.misty
+    // } else if(gymLeader.name === 'Lt Surge') {
+    //     gymLeaderImageSource = image.ltsurge
+    // } else if(gymLeader.name === 'Erika') {
+    //     gymLeaderImageSource = image.erika
+    // }
+
+    switch(gymLeader.name) {
+        case 'Brock':
+            gymLeaderImageSource = image.brock;
+            break;
+        case 'Misty':
+            gymLeaderImageSource = image.misty;
+            break;
+        case 'Lt Surge':
+            gymLeaderImageSource = image.ltsurge;
+                break;
+        case 'Erika':
+            gymLeaderImageSource = image.erika;
+                break;
+        case 'Koga':
+            gymLeaderImageSource = image.koga;
+                break;
+        case 'Sabrina':
+            gymLeaderImageSource = image.sabrina;
+                break;
+        case 'Blaine':
+            gymLeaderImageSource = image.blaine;
+                break;
+        case 'Blue':
+            gymLeaderImageSource = image.blue;
+                break;
+        default:
+            console.log("Issue in gym leader images...");  
     }
 
     return(
