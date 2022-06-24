@@ -90,6 +90,21 @@ const NewGymForm = ({postGym}) => {
                 <option>Vermilion City Gym</option>
                 <option>Violet City Gym</option>
 
+                <option>Snowbelle City Gym</option>
+                <option>Snowpoint City Gym</option>
+                <option>Castelia  City Gym</option>
+                <option>Mistralton City Gym</option>
+                <option>Opelucid City Gym</option>
+                <option>Canalave City Gym</option>
+                <option>Coumarine City Gym</option>
+                <option>Anistar City Gym</option>
+                <option>Driftveil City Gym</option>
+                <option>Hearthome City Gym</option>
+                <option>Shalour City Gym</option>
+                <option>Virbank City Gym</option>
+                <option>Striaton City Gym</option>
+                <option>Lumiose City Gym</option>
+
 
             </select>
             

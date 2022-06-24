@@ -106,103 +106,103 @@ const Gym = ({gym, gymLeaders}) => {
         
 
 
-        case 'Lenora':
-            gymImageSource = gymImage.basicBadge;
-            break;
-        case 'Volkner':
-            gymImageSource = gymImage.beaconBadge;
-            break;
-        case 'Elesa':
-            gymImageSource = gymImage.boltBadge;
-            break;
-        case 'Viola':
-            gymImageSource = gymImage.bugBadge;
-            break;
-        case 'Grant':
-            gymImageSource = gymImage.cliffBadge;
-            break;
-        case 'dark':
-            gymImageSource = gymImage.darkBadge;
-            break;
-        case 'dragon':
-            gymImageSource = gymImage.dragonBadge;
-            break;
-        case 'Valerie':
-            gymImageSource = gymImage.fairyBadge;
-            break;
-        case 'Crasher Wake':
-            gymImageSource = gymImage.fenBadge;
-            break;
-        case 'fighting':
-            gymImageSource = gymImage.fightingBadge;
-            break;
-        case 'fire':
-            gymImageSource = gymImage.fireBadge;
-            break;
-        case 'Brycen':
-            gymImageSource = gymImage.freezeBadge;
-            break;
-        case 'ghost':
-            gymImageSource = gymImage.ghostBadge;
-            break;
-        case 'grass':
-            gymImageSource = gymImage.grassBadge;
-            break;
-        case 'ice':
-            gymImageSource = gymImage.iceBadge;
-            break;
-        case 'Wulfric':
-            gymImageSource = gymImage.iceBadge;
-            break;
-        case 'Candice':
-            gymImageSource = gymImage.icicleBadge;
-            break;
-        case 'Burgh':
-            gymImageSource = gymImage.insectBadge;
-            break;
-        case 'Skyla':
-            gymImageSource = gymImage.jetBadge;
-            break;
-        case ('Drayden'||'Iris'):
-            gymImageSource = gymImage.legendBadge;
-            break;
-        case 'Byron':
-            gymImageSource = gymImage.mineBadge;
-            break;
-        case 'Ramos':
-            gymImageSource = gymImage.plantBadge;
-            break;
-        case 'Olympia':
-            gymImageSource = gymImage.psychicBadge;
-            break;
-        case 'Clay':
-            gymImageSource = gymImage.quakeBadge;
-            break;
-        case 'Fantina':
-            gymImageSource = gymImage.relicBadge;
-            break;
-        case 'Korrina':
-            gymImageSource = gymImage.rumbleBadge;
-            break;
-        case 'Roxie':
-            gymImageSource = gymImage.toxicBadge;
-            break;
-        case 'Cilan/Chili/Cress':
-            gymImageSource = gymImage.trioBadge;
-            break;
-        case 'Clemont':
-            gymImageSource = gymImage.voltageBadge;
-            break;
-        case 'water':
-            gymImageSource = gymImage.waterBadge;
-            break;
-        case 'Marlon':
-            gymImageSource = gymImage.waveBadge;
-            break;
-
-            default:
-            console.log("Issue in gym leader images...");  
-    }
+            case 'Nacrene City Gym':
+                gymImageSource = gymImage.basicBadge;
+                break;
+            case 'Sunyshore City Gym':
+                gymImageSource = gymImage.beaconBadge;
+                break;
+            case 'Nimbasa City Gym':
+                gymImageSource = gymImage.boltBadge;
+                break;
+            case 'Santalune City Gym':
+                gymImageSource = gymImage.bugBadge;
+                break;
+            case 'Cyllage City Gym':
+                gymImageSource = gymImage.cliffBadge;
+                break;
+            // case 'dark':
+            //     gymImageSource = gymImage.darkBadge;
+            //     break;
+            // case 'dragon':
+            //     gymImageSource = gymImage.dragonBadge;
+            //     break;
+            case 'Laverre City Gym':
+                gymImageSource = gymImage.fairyBadge;
+                break;
+            case 'Pastoria City Gym':
+                gymImageSource = gymImage.fenBadge;
+                break;
+            // case 'fighting':
+            //     gymImageSource = gymImage.fightingBadge;
+            //     break;
+            // case 'fire':
+            //     gymImageSource = gymImage.fireBadge;
+            //     break;
+            case 'Icirrus City Gym':
+                gymImageSource = gymImage.freezeBadge;
+                break;
+            // case 'ghost':
+            //     gymImageSource = gymImage.ghostBadge;
+            //     break;
+            // case 'grass':
+            //     gymImageSource = gymImage.grassBadge;
+            //     break;
+            // case 'ice':
+            //     gymImageSource = gymImage.iceBadge;
+            //     break;
+            case 'Snowbelle City Gym':
+                gymImageSource = gymImage.icebergBadge;
+                break;
+            case 'Snowpoint City Gym':
+                gymImageSource = gymImage.icicleBadge;
+                break;
+            case 'Castelia City Gym':
+                gymImageSource = gymImage.insectBadge;
+                break;
+            case 'Mistralton City Gym':
+                gymImageSource = gymImage.jetBadge;
+                break;
+            case 'Opelucid City Gym':
+                gymImageSource = gymImage.legendBadge;
+                break;
+            case 'Canalave City Gym':
+                gymImageSource = gymImage.mineBadge;
+                break;
+            case 'Coumarine City Gym':
+                gymImageSource = gymImage.plantBadge;
+                break;
+            case 'Anistar City Gym':
+                gymImageSource = gymImage.psychicBadge;
+                break;
+            case 'Driftveil City Gym':
+                gymImageSource = gymImage.quakeBadge;
+                break;
+            case 'Hearthome City Gym':
+                gymImageSource = gymImage.relicBadge;
+                break;
+            case 'Shalour City Gym':
+                gymImageSource = gymImage.rumbleBadge;
+                break;
+            case 'Virbank City Gym':
+                gymImageSource = gymImage.toxicBadge;
+                break;
+            case 'Striaton City Gym':
+                gymImageSource = gymImage.trioBadge;
+                break;
+            case 'Lumiose City Gym':
+                gymImageSource = gymImage.voltageBadge;
+                break;
+            // case 'water':
+            //     gymImageSource = gymImage.waterBadge;
+            //     break;
+            case 'Humilau City Gym':
+                gymImageSource = gymImage.waveBadge;
+                break;
+    
+                default:
+                console.log("Issue in gym leader images...");  
+        }
 
 
     return (
