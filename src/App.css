@@ -15,7 +15,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /* background-color: #d61a1a;  Background styling added by us  */
+  /* background-color: #ffcccb;  Background styling added by us  */
 }
 
 /* Global Styling */
@@ -197,6 +197,7 @@ p {
   justify-content: center;
   align-items: center;
   /* margin: 0.3rem; Adds small margin around boxes ... can be kept or not */
+  max-width: 550px;
 }
 
 .pokemon_parent_container {
@@ -227,6 +228,7 @@ p {
   justify-content: center;
   align-items: center;
   /* margin: 0.3rem; Adds small margin around boxes ... can be kept or not */
+  max-width: 550px;
 }
 
 .trainer_parent_container {
@@ -256,6 +258,8 @@ p {
   justify-content: center;
   align-items: center;
   /* margin: 0.3rem; Adds small margin around boxes ... can be kept or not */
+  max-width: 550px;
+  min-height: 199px; 
 }
 
 .gym_parent_container {
@@ -286,6 +290,7 @@ p {
   align-items: center;
   min-height: 199px; 
   /* margin: 0.3rem; Adds small margin around boxes ... can be kept or not */
+  max-width: 550px;
 }
 
 .gymLeader_parent_container {
