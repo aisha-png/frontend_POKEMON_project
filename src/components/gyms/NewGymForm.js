@@ -48,13 +48,50 @@ const NewGymForm = ({postGym}) => {
         <form className="form-gym" onSubmit={handleFormSubmit}>
             <h2>Enter a new Gym: </h2>
             <p> Enter a name</p>
-                <input 
+                {/* <input 
                 type="text" 
                 placeholder="name"
                 name="name"
                 onChange={handleChange}
                 value={stateGym.name}
-                /> 
+                />  */}
+
+<select  
+                type="text"
+                name = "name" 
+                onChange={handleChange} 
+                >
+                <option>Choose a Gym:</option>
+                <option>Petalburg City Gym</option>
+                <option>Pewter City Gym</option>
+                <option>Cerulean City Gyme</option>
+                <option>Oreburgh City Gym</option>
+                <option>Veilstone City Gym</option>
+                <option>Mauville City Gym</option>
+                <option>Viridian City Gym</option>
+                <option>Fortree City Gym</option>
+                <option>Ecruteak City Gym</option>
+                <option>Eterna City Gym</option>
+                <option>Mahogany Town Gym</option>
+                <option>Crasher Wake</option>
+                <option>Lavaridge Town Gym</option>
+                <option>Azalea Town Gym</option>
+                <option>Dewford Town Gym</option>
+                <option>Saffron City Gym</option>
+                <option>Mossdeep City Gym</option>
+                <option>Olivine City Gym</option>
+                <option>Goldenrod City Gym</option>
+                <option>Sootopolis City Gym</option>
+                <option>Celadon City Gym</option>
+                <option>Blackthorn City Gym</option>
+                <option>Fuchsia City Gym</option>
+                <option>Rustboro City Gym</option>
+                <option>Cianwood City Gym</option>
+                <option>Vermilion City Gym</option>
+                <option>Violet City Gym</option>
+
+
+            </select>
             
         {/* <select 
             name="trainer" 
