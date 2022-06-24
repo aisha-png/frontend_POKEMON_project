@@ -73,7 +73,7 @@ const NewGymForm = ({postGym}) => {
                 <option>Ecruteak City Gym</option>
                 <option>Eterna City Gym</option>
                 <option>Mahogany Town Gym</option>
-                <option>Crasher Wake</option>
+                {/* <option>Crasher Wake</option> */}
                 <option>Lavaridge Town Gym</option>
                 <option>Azalea Town Gym</option>
                 <option>Dewford Town Gym</option>
