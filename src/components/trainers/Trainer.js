@@ -1,3 +1,5 @@
+import trainerSprite from "../../trainerSprite/trainerSprite";
+
 const Trainer = ({trainer, deleteTrainer}) => {
 
   const handleDeleteTrainer = () => {
@@ -6,6 +8,7 @@ const Trainer = ({trainer, deleteTrainer}) => {
 
   return (
     <div className="trainer">
+        <img src={trainerSprite.trainerSpriteImage} alt='A trainer sprite' width='70px'/>
         <h1>{trainer.name}</h1>
         <h3>{trainer.dob}</h3>
         <button onClick={handleDeleteTrainer}>DELETE</button>
