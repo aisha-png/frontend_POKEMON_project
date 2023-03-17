@@ -2,13 +2,19 @@
 ![POKEMON_LOGO](https://user-images.githubusercontent.com/67974517/174847849-cc02acdf-52b7-428b-8d2d-619ff923cedb.png)
 We are Pokemon trainers, a team consisting of [BNTA](https://techacademy.brightnetwork.co.uk/) Cohort 5 members : [James](https://github.com/jamesdpli), [Aisha](https://github.com/aisha-png), [Jack](https://github.com/Jwells1397), [Adan](https://github.com/AdanAbdillahi)
 # Table of Contents
+- [Webiste showcase](website-showcase)
 - [Summary](#summary)
 - [Step-by- step instructions for inital set-up](#step-by-step-instructions-for-initial-set-up)
 - [Wireframe](#wireframe)
 
+# Website showcase
+<img src='./readmeImagesAndGifs/pokemonAddingShowcase.gif'/>
+<img src='./readmeImagesAndGifs/gymLeaderShowcase.png' width='600px'/>
+<img src='./readmeImagesAndGifs/gymShowcase.png' width='600px'/>
+
 # Summary
-Original API is from `https://github.com/biancakendall29/w07_server_side_project.git` <br>
-we changed data loader and relationships ... <br>
+The original API is from `https://github.com/biancakendall29/w07_server_side_project.git` <br>
+we edited the relationships, methods and data loader struture <br>
 Front end project consisting of a team of 4 as part of the BNTA programme, a week 11 project using an API from a previous groups backend project, where we used react. The website contains a home page, a pokemon page where the user can view and enter pokemon using the CRUD functionality into the database using a react form, and similarly to the pokemon page we have a gym and gymLeader page with the view and enter functionaility also.
 # Step-by-step instructions for initial set up
 1. Make sure that you have installed Java.
